@@ -10,14 +10,14 @@ Po narysowaniu learning curves spodziewam się, że model z topologią `linear` 
 
 ---
 
-**Prediction**
+**Prediction:**
 Przewidywanie sprawdziło się, topologia full nie poprawiła wyników, a wręcz pogorszyła zdolność modelu do nauki.
 
-**Full**
+**Full:**
 Zbyt gęste splątanie w obwodzie full doprowadziło do overparameterization, przez co optymalizator szybko utknął z  wyższym błędem końcowym.
 
-**Linear**
+**Linear:**
 Oszczędna topologia linear jest wystarczająca i optymalna dla prostego zbioru danych make_moons.
 
-**"Co by było, gdyby…"**
+**"Co by było, gdyby…":**
 Zwiększenie głębokości sprawiłoby, że model 'linear' straciłby swoją przewagę i zacząłby zachowywać się równie źle co model 'full'. Dla tak prostych danych wejściowych optymalizator dostałby zbyt wiele wag do dostosowania, co doprowadziłoby do niestabilności, poszarpanej krzywej uczenia i ryzyka utknięcia w barren plateaus.
