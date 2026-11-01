@@ -20,4 +20,4 @@ Zbyt gęste splątanie w obwodzie full doprowadziło do overparameterization, pr
 Oszczędna topologia linear jest wystarczająca i optymalna dla prostego zbioru danych make_moons.
 
 **"Co by było, gdyby…":**
-Zwiększenie głębokości sprawiłoby, że model 'linear' straciłby swoją przewagę i zacząłby zachowywać się równie źle co model 'full'. Dla tak prostych danych wejściowych optymalizator dostałby zbyt wiele wag do dostosowania, co doprowadziłoby do niestabilności, poszarpanej krzywej uczenia i ryzyka utknięcia w barren plateaus.
+Zwiększenie głębokości sprawiłoby, że model `linear` straciłby swoją przewagę i zacząłby zachowywać się równie źle co model `full`. Dla tak prostych danych wejściowych optymalizator dostałby zbyt wiele wag do dostosowania, co doprowadziłoby do niestabilności, poszarpanej krzywej uczenia i ryzyka utknięcia w barren plateaus.
